@@ -32,9 +32,15 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: map-get( $colors, "whiter" );
-      font-size: xx-large;
-    }
+      font-size: x-large;
+      h2{
+
+     font-weight: lighter;
+
+      }
+      }
   }
+  
 
   .container-3 {
     display: flex;

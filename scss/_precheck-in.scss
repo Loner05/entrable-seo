@@ -1,0 +1,21 @@
+
+.header-precheckin {
+    grid-area: header-precheckin;
+    display: block;
+    padding-top: 10%;
+  }
+  
+  .texto-header-precheckin {
+    grid-area: texto-header-precheckin;
+    padding: 30px 50px 30px 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 25px;
+    color: map-get($colors, "whiter" );
+    background-color: map-get($colors, "blue-minhaus" );
+  }
+  
+  .form-precheckin-box {
+    grid-area: form-precheckin-box;
+    width: 100%;
+  }
